@@ -27,37 +27,37 @@ function makeSound(key) {
 
   switch (key) {
     case "w":
-      var tom1 = new Audio("sounds/crash.mp3");
+      var crash = new Audio("sounds/crash.mp3");
       crash.play();
       break;
 
     case "a":
-      var tom2 = new Audio("sounds/snare.mp3");
+      var snare = new Audio("sounds/snare.mp3");
       snare.play();
       break;
 
     case "s":
-      var tom3 = new Audio('sounds/kick-bass.mp3');
+      var kick-bass = new Audio('sounds/kick-bass.mp3');
       kick-bass.play();
       break;
 
     case "d":
-      var tom4 = new Audio('sounds/tom-1.mp3');
+      var tom-1 = new Audio('sounds/tom-1.mp3');
       tom-1.play();
       break;
 
     case "j":
-      var snare = new Audio('sounds/tom-2.mp3');
+      var tom-2 = new Audio('sounds/tom-2.mp3');
       tom-2.play();
       break;
 
     case "k":
-      var crash = new Audio('sounds/tom-3.mp3');
+      var tom-3 = new Audio('sounds/tom-3.mp3');
       tom-3.play();
       break;
 
     case "l":
-      var kick = new Audio('sounds/tom-4.mp3');
+      var tom-4 = new Audio('sounds/tom-4.mp3');
       tom-4.play();
       break;
 
